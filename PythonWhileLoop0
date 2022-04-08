@@ -1,0 +1,11 @@
+# this program will square the numbers up to the inputted number.
+# we get the input from the user.
+
+number = int(input())
+base = 0
+
+while base < number:
+    print(base*base)
+    base = base + 1 
+    
+# output will be listed like this -> 0, 1, 4, 9, 16, ...     
