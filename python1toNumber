@@ -1,0 +1,7 @@
+# bir sayı girilir. girilen sayıya kadar 1 den itibaren artarak birleşik olarak aynı sırada yazdırılır
+n = int(input())
+a = 1
+
+while a <= n:
+    print(a, end ="")
+    a = a + 1
